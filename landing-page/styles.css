@@ -1,15 +1,9 @@
-html{
-    font:robo;
-}
+
 body{
-/* display: flex;
-flex-direction: column; */
+
  margin: 0px;
  padding: 0px;
  border: 0px;
-
- background-color: #1F2937;
- border:none;
 } 
 
 
@@ -21,13 +15,14 @@ background-color: #1F2937;
 color: #F9FAF8;
 display: flex;
 flex:auto;
+justify-content:space-around;
     
 
 }
 
 .logo {
 
-justify-self: left;
+/* justify-self: left; */
 font-size: 24px;
 font-weight: bolder;
 align-self: center;
@@ -39,13 +34,14 @@ margin: 12px;
     display: flex;
     list-style-type: none;
     align-self: center;
-    margin-left: auto;
-    margin-right: 50px;
+    /* margin-left: auto;
+    margin-right: 50px; */
 }
 .navmenu a{
 
     text-decoration: none;
-    color:inherit;
+    color:#E5E7EB;
+    font-size: 18px;
     margin: 10px;
     
 }
